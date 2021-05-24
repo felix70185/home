@@ -14,7 +14,7 @@ abstract class Lesson {
     {
         return $this->costStrategy->cost($this);
     }
-    public function chargeType() : int
+    public function chargeType() : string
     {
         return $this->costStrategy->chargeType();
     }
